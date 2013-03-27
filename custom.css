@@ -17,8 +17,28 @@ h1{
 	font-family: 'MyWebFont';
 }
 
+h1 a {
+ font-size: 0.6666667em;
+ color: #57AD68;
+}
+
+.site{
+	margin: 40px auto;
+	width: 940px;
+}
+
+.content{
+	float: left;
+	width: 600px;
+}
+
+.sidebar{
+	width: 305px;
+	float: left;
+}
+
 @font-face {
 	font-family: 'MyWebFont';
-	src: url('amble/Amble-Regular.ttf')  format('truetype')
+	src: url('fonts/CartoGothicStd-Book.otf')  format('opentype')
 }
 
