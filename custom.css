@@ -24,17 +24,20 @@ h1 a {
 
 .site{
 	margin: 40px auto;
-	width: 940px;
+	width: 90%;
 }
 
 .content{
+	background-color: #DEFF9E;
 	float: left;
-	width: 600px;
+	padding: 3.389830%;
+	width: 60.766%;
 }
 
 .sidebar{
-	width: 305px;
+	background-color: #FFF29E;
 	float: left;
+	width: 32.446809%;
 }
 
 @font-face {
