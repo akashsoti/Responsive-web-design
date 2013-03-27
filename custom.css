@@ -1,0 +1,24 @@
+/* to convert font to responsive style we use 'em'
+target/context = result
+*/
+
+html{
+	font-size: 16px;
+}
+
+body{
+	background-color: #EAEAEA;
+	color: #333332;
+	font-size: 62.5%; /* 1em = 10px */ 
+}
+
+h1{
+	font-size: 3em; /* 30px/10px */
+	font-family: 'MyWebFont';
+}
+
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('amble/Amble-Regular.ttf')  format('truetype')
+}
+
