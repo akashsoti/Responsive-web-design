@@ -37,7 +37,8 @@ h1 a {
 .sidebar{
 	background-color: #FFF29E;
 	float: left;
-	width: 32.446809%;
+	margin-right: 2.446809%;
+	width: 30%;
 }
 
 @font-face {
@@ -45,3 +46,35 @@ h1 a {
 	src: url('fonts/CartoGothicStd-Book.otf')  format('opentype')
 }
 
+/* Media Querries */
+@media screen and (max-width: 800px){
+	body{
+	background-color: #EAEAEA;
+	color: #333332;
+	font-size: 62.5%; /* 1em = 10px */ 
+	}
+
+	h1{
+		font-size: 3em; /* 30px/10px */
+		font-family: 'MyWebFont';
+	}
+
+	h1 a {
+	 font-size: 0.6666667em;
+	 color: #57AD68;
+	}
+	.site{
+	margin: 40px auto;
+	width: 90%;
+	}
+	.sidebar{
+		float: none;
+		width: 100%;
+	}
+	.content{
+		float: none;
+		width: 93%;
+		margin-right: 2.46%;
+		padding: 3.389830%;
+	}
+}
